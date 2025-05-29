@@ -12,19 +12,23 @@ Proxy: Ofrece dos variantes de autenticación (auditable y no auditable) mediant
 
 /adapter: Implementación del patrón Adapter con clases para consultas locales y remotas.
 
-/flyweight: Modificación del ejercicio de listas de reproducción con caché en memoria y PostgreSQL.
+/brige: Se utiliza un Factory configurable que lee un archivo para determinar dinámicamente la clase de implementación concreta del Bridge.
 
 /proxy: Factory de proxies de autenticación y esquema de base de datos.
 
 ## Ejecucion
-Para ejecutar cada patron, debe dirijirse a la carpeta del patron, configurar las variables de entorno en ".env", ejectuar los siguientes comandos:
+Para ejecutar cada patron, debe dirijirse a la carpeta del patron, configurar las variables de entorno en ".env" (si existen), y ejectuar los siguientes comandos:
 
+### Python
 ```
 conda env create --name my-env-name --file environment.yml
 conda activate my-env-name
 python main.py
 ```
+### Java
+- Correr la clase main
 
 ## Requisitos Técnicos
 - Python 3.8+ (Anaconda/Miniconda)
-- PostgreSQl instanciado en supabas
+- PostgreSQl instanciado en supabase
+- Maven (Java 17)
