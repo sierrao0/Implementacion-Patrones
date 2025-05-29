@@ -15,3 +15,16 @@ Proxy: Ofrece dos variantes de autenticación (auditable y no auditable) mediant
 /flyweight: Modificación del ejercicio de listas de reproducción con caché en memoria y PostgreSQL.
 
 /proxy: Factory de proxies de autenticación y esquema de base de datos.
+
+## Ejecucion
+Para ejecutar cada patron, debe dirijirse a la carpeta del patron, configurar las variables de entorno en ".env", ejectuar los siguientes comandos:
+
+```
+conda env create --name my-env-name --file environment.yml
+conda activate my-env-name
+python main.py
+```
+
+## Requisitos Técnicos
+- Python 3.8+ (Anaconda/Miniconda)
+- PostgreSQl instanciado en supabas
