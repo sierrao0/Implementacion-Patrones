@@ -9,6 +9,7 @@ Flyweight: Optimiza el manejo de listas de reproducción, almacenando en memoria
 Proxy: Ofrece dos variantes de autenticación (auditable y no auditable) mediante un Factory configurable, con conexión a una base de datos real.
 
 Estructura del Repositorio
+
 /adapter: Implementación del patrón Adapter con clases para consultas locales y remotas.
 
 /flyweight: Modificación del ejercicio de listas de reproducción con caché en memoria y PostgreSQL.
