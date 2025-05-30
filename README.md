@@ -4,7 +4,7 @@ Este repositorio contiene las soluciones desarrolladas para el Parcial No. 2 de 
 
 Adapter: Unifica el acceso a datos de empleados desde fuentes heterogéneas (base de datos PostgreSQL y un servicio web REST/SOAP).
 
-Flyweight: Optimiza el manejo de listas de reproducción, almacenando en memoria solo las más utilizadas y persistendo las menos frecuentes en PostgreSQL.
+Brige: Se utiliza un Factory configurable que lee un archivo para determinar dinámicamente la clase de implementación concreta del Bridge.
 
 Proxy: Ofrece dos variantes de autenticación (auditable y no auditable) mediante un Factory configurable, con conexión a una base de datos real.
 
@@ -12,7 +12,7 @@ Proxy: Ofrece dos variantes de autenticación (auditable y no auditable) mediant
 
 /adapter: Implementación del patrón Adapter con clases para consultas locales y remotas.
 
-/brige: Se utiliza un Factory configurable que lee un archivo para determinar dinámicamente la clase de implementación concreta del Bridge.
+/brige: Implementación de factory para el patron bridge.
 
 /proxy: Factory de proxies de autenticación y esquema de base de datos.
 
